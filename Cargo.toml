@@ -1,0 +1,18 @@
+[package]
+description = "Demo Rust + WASM"
+name = "rust-wasm-greetings"
+version = "0.1.0"
+edition = "2021"
+authors = ["Richard Sentino <richard.sentino@gmail.com>"]
+repository = "https://github.com/rixrix/rust-wasm-greetings.git"
+license = "MIT"
+keywords = ["wasm", "rust", "webassembly"]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.87"

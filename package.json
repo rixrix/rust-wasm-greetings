@@ -1,0 +1,28 @@
+{
+  "name": "rust-wasm-greetings",
+  "version": "1.0.0",
+  "description": "A simple demo of Rust + WASM ",
+  "main": "pkg/rust_wasm_greetings.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rixrix/rust-wasm-greetings.git"
+  },
+  "keywords": [
+    "wasm",
+    "rust",
+    "webassembly"
+  ],
+  "author": "\"Richard Sentino <richard.sentino@gmail.com>",
+  "license": "MIT",
+  "types": "./pkg/rust_wasm_greetings.d.ts",
+  "bugs": {
+    "url": "https://github.com/rixrix/rust-wasm-greetings/issues"
+  },
+  "homepage": "https://github.com/rixrix/rust-wasm-greetings#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
